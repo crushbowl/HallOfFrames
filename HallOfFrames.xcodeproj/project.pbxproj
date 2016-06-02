@@ -13,6 +13,7 @@
 		A8EA75291D00BD5D00A84F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EA75271D00BD5D00A84F4A /* Main.storyboard */; };
 		A8EA752B1D00BD5D00A84F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EA752A1D00BD5D00A84F4A /* Assets.xcassets */; };
 		A8EA752E1D00BD5D00A84F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EA752C1D00BD5D00A84F4A /* LaunchScreen.storyboard */; };
+		A8EA75371D00C09F00A84F4A /* PictureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EA75361D00C09F00A84F4A /* PictureCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A8EA752A1D00BD5D00A84F4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8EA752D1D00BD5D00A84F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8EA752F1D00BD5D00A84F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8EA75351D00C09F00A84F4A /* PictureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureCollectionViewCell.h; sourceTree = "<group>"; };
+		A8EA75361D00C09F00A84F4A /* PictureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				A8EA75241D00BD5D00A84F4A /* ViewController.h */,
 				A8EA75251D00BD5D00A84F4A /* ViewController.m */,
 				A8EA75271D00BD5D00A84F4A /* Main.storyboard */,
+				A8EA75351D00C09F00A84F4A /* PictureCollectionViewCell.h */,
+				A8EA75361D00C09F00A84F4A /* PictureCollectionViewCell.m */,
 				A8EA752A1D00BD5D00A84F4A /* Assets.xcassets */,
 				A8EA752C1D00BD5D00A84F4A /* LaunchScreen.storyboard */,
 				A8EA752F1D00BD5D00A84F4A /* Info.plist */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8EA75261D00BD5D00A84F4A /* ViewController.m in Sources */,
+				A8EA75371D00C09F00A84F4A /* PictureCollectionViewCell.m in Sources */,
 				A8EA75231D00BD5D00A84F4A /* AppDelegate.m in Sources */,
 				A8EA75201D00BD5D00A84F4A /* main.m in Sources */,
 			);
