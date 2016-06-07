@@ -3,7 +3,7 @@
 //  HallOfFrames
 //
 //  Created by Christopher Benavides on 6/2/16.
-//  Copyright © 2016 JanL. All rights reserved.
+//  Copyright © 2016 Christopher Benavides. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -15,6 +15,5 @@
 @property UIImage* image;
 
 -(instancetype)initWithFrameColor:(UIColor*)frameColor andImage:(UIImage*)image;
-
 
 @end
